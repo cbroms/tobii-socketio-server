@@ -1,6 +1,17 @@
 # Prerequisites
 *.d
 
+x64/
+.vs 
+
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# tobii proprietary headers
+/include/tobii
+
 # Compiled Object files
 *.slo
 *.lo
